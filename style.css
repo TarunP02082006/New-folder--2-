@@ -80,6 +80,12 @@ button {
   text-decoration: none;
   color: var(--text-soft);
   font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a.active {
+  color: var(--primary-dark);
+  font-weight: 700;
 }
 
 .btn {
